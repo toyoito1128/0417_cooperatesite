@@ -15,23 +15,26 @@ li {
 }
 
 .common__btn {
-  width: 200px;
+  width: 250px;
   background-color: #cd0224;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   margin: 0 auto;
   cursor: pointer;
+  display: block;
 }
 
 .common__btn:hover{
   opacity: 0.7;
 }
 
-.common__btn a {
+.common__btn p {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
+  display: block;
+  width:100%;
+  text-align: center;
 }
-
 
 
 /* header */
@@ -270,6 +273,7 @@ li {
   text-align: center;
   padding: 10px;
   cursor: pointer;
+  display: block;
 }
 
 .common__btn-small:hover{
@@ -298,7 +302,7 @@ li {
   transition: .2s;
 }
 
-.news__body ul li a {
+.news__body ul a li {
   color: #222;
 }
 
@@ -368,7 +372,7 @@ li {
   position: relative;
 }
 
-.recruit__item a {
+.recruit__item h3 {
   color: white;
   font-size: 24px;
   position: absolute;
@@ -396,7 +400,7 @@ li {
   box-sizing: border-box;
 }
 
-.container__f p {
+.container__f .inquiery-p {
   padding: 20px 0;
   text-align: center;
 }
