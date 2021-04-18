@@ -33,6 +33,7 @@ li {
   display: block;
   width:100%;
   text-align: center;
+  font-weight: bold;
 }
 
 /* header */
@@ -147,8 +148,9 @@ li {
 }
 
 .header__pc li a {
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 20px;
+  font-weight: bold;
 }
 
 /* firstview */

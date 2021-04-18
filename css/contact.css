@@ -24,6 +24,8 @@ li {
   cursor: pointer;
   display: block;
   transition: 0.2s;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 /* .common__btn:hover {
@@ -153,8 +155,9 @@ li {
 }
 
 .header__pc li a {
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 20px;
+  font-weight: bold;
 }
 
 /* firstview */
